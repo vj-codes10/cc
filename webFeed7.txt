@@ -1,0 +1,46 @@
+Practical No 7
+Aim: Write a program for web feed.
+1. Start wampserver64. Keep it open.
+2. Create a folder rss at “C:\wamp\www”
+3. Open Notepad. Type the following code:
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+<title>ITVoyagers</title>
+<link>http://itvoyagers.in</link>
+<description>ITVoyagers is an educational blog for information technology and computer
+science program.We have started this
+blog with a goal of meeting the requirements of learners to cope with the changing technology.
+We are aiming to expand its scope in all sections of IT.</description>
+<item>
+<title>Cloud Computing</title>
+<link>https://itvoyagers.in/cloud-computing/</link>
+<description>Cloud Computing Practicals</description>
+</item>
+<item>
+<title>Business Intelligence</title>
+<link>https://itvoyagers.in/advance-topics/business-intelligence/</link>
+<description>Business Intelligence Practicals</description>
+</item>
+<item>
+<title>Geographical Information System </title>
+<link>https://itvoyagers.in/advance-topics/geographical-information-system-gis/</link>
+<description>Geographical Information System Practicals</description>
+</item>
+</channel>
+</rss>
+Save it using TYCS2021.xml
+Location : “C:\wamp\www\rss”
+Now click localhost from wampserver.
+Click on Cloud Computing.
+If your web browser is not supporting xml file then download rss extension. Using this link.
+https://chrome.google.com/webstore/detail/rss-
+subscriptionextensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd?hl=en
+
+You will be redirected to the following page
+Add to chrome and refresh the TYCS2021.xml again.
+
+Note that:
+What is RSS?
+RSS (RDF Site Summary or Really Simple Syndication) is a web feed that allows users and
+applications to access updates to websites in a standardized, computer-readable format.
