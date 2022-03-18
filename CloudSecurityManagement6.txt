@@ -1,0 +1,21 @@
+Practical No 6
+AIM: Study Cloud Security management
+(Security Management on AWS)
+Click on link below.
+https://aws.amazon.com/console/
+Go to “My Account” > “AWS Management Console”.
+Just login to your users account.
+Once you logged in go to “Security Credentials”.
+Scroll down you will find “multi-factor authentication (MFA)”. Click on “Activate
+MFA”
+We will select first option “Virtual MFA device” and click on “Continue”
+So, concept is we will use third party app to generate OTP which will help us to
+authenticate ourselves during logging in. It will add a security layer to our account.Now
+we have to download “2FA Authenticator (2FAS)” app on our mobile.
+Click on “Show QR code” to display QR code.
+Install “Google Authenticator” on Android Phone or iPhone. Scan qr code and enter
+two MFA codes which will be displayed on screen. Click on “Assign MFA” and Close.
+Log out from the account. Now again try to log in to your account.
+After entering captcha and password it will ask for MFA code which u will get on google
+authenticator. You get new code after every 30 seconds, just enter the valid MFA code
+and click on “Submit” to login.
