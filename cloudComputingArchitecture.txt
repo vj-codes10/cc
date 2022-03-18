@@ -1,0 +1,93 @@
+Practical 1
+AIM: Study of Cloud Computing architecture
+1.Definition of cloud:
+The cloud" refers to servers that are accessed over the Internet, and the software and 
+databases that run on those servers.
+
+2.Definition cloud computing:
+Cloud computing is the delivery of different services through the Internet. 
+These resources include tools and applications like data storage, servers, databases, 
+networking, and software.
+
+3.Different cloud services:
+Cloud computing services fall into 4 categories:
+•infrastructure as a service (IaaS)
+•platform as a service (PaaS),
+•software as a service (SaaS)
+I.Infrastructure-as-a-service(IaaS):
+IaaS is the most basic category of cloud computing services that allows you rent IT 
+infrastructure (servers or VM’s) from a cloud provider on a pay-as-you- go basis.
+
+II.Platform as a service (PaaS) :
+Platform-as-a-service (PaaS) refers to the supply an on-demand environment for 
+developing, testing, delivering and managing software applications. It is designed to 
+quickly create web or mobile apps, without worrying about setting up or managing the 
+underlying infrastructure of servers, storage, network and databases needed for 
+development.
+
+III.Software as a service (SaaS) :
+Software-as-a-service (SaaS) is a method for delivering software applications over the 
+Internet as per the demand and on a subscription basis.
+
+5.Types of cloud:
+•Private
+•Public
+•Hybrid
+•Community
+1)Public Cloud – Whole computing infrastructure is located on the premises of a cloud 
+computing company that offers the cloud service.
+2)Private Cloud – Hosting all your computing infrastructure yourself and is not shared. The security and control level is highest while using a private network.
+3)Hybrid Cloud – using both private and public clouds, depending on their purpose. 
+You host your most important applications on your own servers to keep them more secure 
+and secondary applications elsewhere.
+4)Community Cloud – A community cloud is shared between organizations with a common 
+goal or that fit into a specific community (professional community, geographic 
+community, etc.).
+
+6.Advantages of cloud computing:
+•Cost Savings: Cost saving is the biggest benefit of cloud computing. It helps you to 
+save substantial capital cost as it does not need any physical hardware investments.
+•Strategic edge : Cloud computing offers a competitive edge over your competitors. It 
+helps you to access the latest and applications any time without spending your time 
+and money on installations.
+•High Speed : Cloud computing allows you to deploy your service quickly in fewer 
+clicks. This faster deployment allows you to get the resources required for your 
+system within fewer minutes.
+•Back-up and restore data: Once the data is stored in a Cloud, it is easier to get 
+the back-up and recovery of that, which is otherwise very time taking process 
+on-premise.
+•Automatic Software Integration: In the cloud, software integration is something that 
+occurs automatically. Therefore, you don't need to take additional efforts to customize and integrate your applications as per your preferences.
+•Reliability: Reliability is one of the biggest pluses of cloud computing. 
+You can always get instantly updated about the changes.
+•Unlimited storage capacity : The cloud offers almost limitless storage capacity. 
+At any time you can quickly expand your storage capacity with very nominal monthly fees.
+
+7.Architecture of cloud computing:
+The architecture is mainly divides the cloud architecture into two parts:
+1)	Front End
+2)	Back End
+Each end is connected to others through a network, generally to the Internet.
+Front End
+•The front end is the side of computer user or client.
+•It involves the interfaces and the applications that are necessary to access the 
+Cloud Computing system.
+Back End
+•The back end is the cloud section of the system.
+•It involves all the resources which are necessary to give Cloud computing services.
+•It includes huge data storage, virtual machines, security mechanism, services, 
+deployment models, servers etc. 
+•To give built-in security mechanism, traffic control and protocols is the 
+responsibility of the back end.
+
+8.Components of cloud computing:
+Cloud infrastructure consists of servers, storage devices, network, cloud management 
+software, deployment software, and platform virtualization.
+1.Hypervisor -Hypervisor is a firmware or low-level program that acts as a Virtual Machine Manager. It allows to share the single physical instance of cloud resources between several tenants.
+2.Management Software-It helps to maintain and configure the infrastructure.
+3.Deployment Software-It helps to deploy and integrate the application on the cloud.
+4.Network-It is the key component of cloud infrastructure. It allows to connect cloud services over the Internet. It is also possible to deliver network as a utility over the Internet, which means, the customer can customize the network route and protocol.
+5.Server-The server helps to compute the resource sharing and offers other services such as resource allocation and de-allocation, monitoring the resources, providing security etc.
+6.Storage-Cloud keeps multiple replicas of storage. If one of the storage resources fails, then it can be extracted from another one, which makes cloud computing more reliable
+
+
