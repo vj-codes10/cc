@@ -1,0 +1,66 @@
+Practical-04
+AIM: Study and implementation of Storage as a Service.
+Download OwnCloud from link given below. 
+https://drive.google.com/open?id=1W-GgFzxnbQkpOi_oHkeR2GTqNL8vkyo2
+
+Once you download OwnCloud, you will get the above .zip file, extract it in 
+“C:\wampserver64\www”
+Now go to browser and enter “http://localhost:8010/phpmyadmin/” in URL bar. 
+We can see that there is no database created for OwnCloud.
+Now start wamp server services and go to the browers and type localhost and 
+select phpmyadmin following will appers.
+
+Now by default password there is no password for root. We have to set password for 
+root for that go to “User accounts”.
+
+We can see that root user can be logged in through three different hosts and those are: 
+“127.0.0.1”, “::1” and “localhost”.
+To set password we have to click on “Edit privileges”. First we will set password for 
+“localhost”.
+Click on “Edit privileges”.
+Click on “Change password”.
+Set simple password and click on “Go”.
+
+Password has been changed, but now it will not allow you to perform other operations.
+Even if you just refresh the page you will see following results.
+
+Just set the same password as you set in phpMyAdmin for root, save it and close it.
+Now go to browser and refresh it.
+Now go to browser and refresh it.
+Now please applay password for remaining to root account i.e. for host “127.0.0.1” and 
+“::1”. Once you finish it you will see below screen.
+
+Now we are going to create database for our cloud. Click on “Databases”.
+
+Enter name for database and click “Create” (even if you entered name in upper case 
+MySQL will convert it into lower case).
+Yes our database is created
+First click on “Home”.
+Once our database is created, we have to add user, for that click on “User accounts”.
+Click on “Add user account”.
+Set the “User name”, “Host name” and “Password” for the user, and now scroll down a 
+little you we will see “Global privileges” section.
+Just check “Check all” checkbox.
+Scroll down little more and click on “Go”.
+Now on next window we can see “Database” button, we have to assign database to the user,
+for that click on “Database”.
+Select the database you just created and click on “Go”
+It will ask for “Database-specific privileges” just check “Check all” checkbox and 
+click on “Go”.
+You can see that our user is been added.
+Now go to browser and enter “http://localhost:8010/owncloud/” in URL bar.
+Above scree will be displayed.
+Now we have to enter User name and Password for admin.
+And other credentials for the user which we just created, and click on “Finish setup”.
+Yes we have done it, we have installed OwnCloud on XAMPP Server.
+Go to “localhost/phpmyadmin” you can see that our database is been filled with tables.
+
+
+
+
+
+
+
+
+
+
